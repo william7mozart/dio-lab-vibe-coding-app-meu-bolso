@@ -1,113 +1,69 @@
-# 💸 App de Finanças Pessoais do Venilton com Vibe Coding
+# 📱 Meu Bolso – App de Organização de Finanças Pessoais com IA
 
-Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
-
----
-
-## 📝 PRD Refinado no Copilot Web
-
-```markdown
-# PRD - App de Organização Financeira com Conversa Natural
-
-## Visão Geral
-Criar um aplicativo de organização de finanças pessoais que funcione por meio de conversas em linguagem natural.  
-O objetivo é tornar o controle financeiro mais intuitivo, acessível e livre de burocracias como planilhas ou formulários complexos.
-
-## Problema a Resolver
-Muitas pessoas abandonam o controle financeiro por acharem os aplicativos atuais complicados, exigindo entradas manuais e oferecendo pouca personalização.  
-Queremos resolver isso com uma experiência conversacional fluida e recomendações automáticas que se adaptam ao perfil do usuário.
-
-## Público-Alvo
-Pessoas que desejam começar a organizar suas finanças de forma prática e sem complicações — especialmente iniciantes que não têm familiaridade com apps financeiros tradicionais.
-
-## Funcionalidades-Chave
-1. Registro de gastos via chat: O usuário descreve seus gastos em linguagem natural, como “gastei R$ 30 no mercado”.
-2. Classificação automática de transações: O app identifica e categoriza os gastos com base no texto.
-3. Definição e acompanhamento de metas financeiras: O usuário pode criar metas como “economizar R$ 500 até o fim do mês”.
-4. Dicas personalizadas do Agente Financeiro: Um assistente virtual que sugere formas de economizar com base nos hábitos do usuário.
-5. Relatórios simples e personalizados: Visualizações claras dos gastos, metas e progresso, adaptadas ao estilo do usuário.
-
-## Princípio de Design Universal
-A solução será construída com base em Design Universal, garantindo que o aplicativo ofereça uma experiência acessível, intuitiva e inclusiva para o maior número possível de pessoas — independentemente de idade, nível de alfabetização digital, limitações físicas ou cognitivas.  
-Isso inclui:
-- Interface clara e legível
-- Navegação simples e sem sobrecarga de informações
-- Compatibilidade com leitores de tela e comandos por voz
-- Feedbacks visuais e auditivos para facilitar o uso
-
-## Entregável da IA
-Gerar um plano de MVP contendo:
-- As principais telas (chat, metas, relatórios)
-- Recursos técnicos necessários (NLP, categorização automática, motor de recomendações)
-- Estratégia de validação inicial com usuários reais
-- Linguagem acessível e tom educativo, em português
-- Aplicação dos princípios de Design Universal desde o protótipo
-```
+## 🎯 Objetivo
+O **Meu Bolso** é um assistente financeiro digital inteligente, simples e acessível, que ajuda o usuário a organizar suas finanças pessoais com interatividade, atualização em tempo real e segurança.  
+Ele conversa de forma natural, responde perguntas abertas sobre economia e finanças, sugere ações personalizadas e motiva o usuário com gamificação leve e mensagens inspiradoras.
 
 ---
 
-## 💬 Interações com o Lovable
+## ✨ Prompt Final (PRD)
+### Funcionalidades
+- **Integração com APIs financeiras:** cotação de moedas, taxa Selic, inflação e notícias rápidas.  
+- **Respostas abertas e didáticas:** explicações claras e contextualizadas sobre finanças.  
+- **Interatividade personalizada:** recomendações baseadas em hábitos e metas do usuário.  
+- **Metas financeiras:** reserva de emergência e caixinhas com contribuições periódicas.  
+- **Privacidade e segurança:** dados criptografados, modo discreto para notificações e controle total do usuário.  
+- **Experiência motivacional:** mensagens bíblicas diárias e resumo interativo das finanças.
 
-> Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+### Identidade Visual
+- **Nome:** Meu Bolso  
+- **Cores:**  
+  - Primária: Azul sereno (#2563EB)  
+  - Secundária: Verde suave (#34D399)  
+  - Complementar: Amarelo claro (#FCD34D)  
+  - Neutros: Cinza claro (#F3F4F6) e branco (#FFFFFF)  
+  - Destaque: Coral (#FB7185)  
+- **Estilo:** minimalista e acolhedor, inspirado no Liquid Glass Design.  
+- **Tipografia:** arredondada e amigável (Nunito, Poppins).  
+- **Ícones:** simples e universais.  
+- **Logo:** formas circulares ou prismáticas remetendo a bolso/cofre.  
 
-> Tentei criar uma meta chamada Reserva de Emergencia, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e extrato?
+### Sons e Gamificação
+- **Notificações:** sino digital curto ou *chime* suave.  
+- **Alertas:** pulso eletrônico discreto.  
+- **Conquistas:** tilintar digital de moedas ou acorde positivo curto.  
+- **Chat:** *pop* suave ou toque em vidro translúcido.  
+- **Mensagens motivacionais:** nota suave de piano ou harpa curta.  
 
-> Sim (Quer que eu adicione uma tela de relatórios com gráficos e extrato detalhado das transações?)
-
----
-
-## 🎯 Resultado Final
-
-Acesse o protótipo funcional no Lovable:  
-**[conversa-fin-amigo.lovable.app](https://conversa-fin-amigo.lovable.app/)**
-
-<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/88ef611d-970e-4377-918a-918714311218" />
-
----
-
-## 🔍 Funcionalidades do App de Organização Financeira
-
-### 1. Dashboard Financeiro
-- Exibe um panorama claro das finanças pessoais:
-  - **Receitas**: Total de ganhos registrados
-  - **Despesas**: Total de gastos
-  - **Saldo**: Diferença entre receitas e despesas
-- Interface simples e direta para facilitar a compreensão
-
-### 2. Assistente Financeiro
-- Personagem conversacional que interage com o usuário
-- Incentiva a conexão de contas e cartões para uma visão completa das finanças
-- Oferece suporte emocional e motivacional
-
-### 3. Registro de Transações via Chat
-- Campo de entrada para o usuário digitar mensagens em linguagem natural
-- Permite registrar gastos e interagir com o assistente de forma fluida
-
-### 4. Metas Financeiras
-- Área dedicada à criação e acompanhamento de objetivos financeiros
-- Sugestão proativa para o usuário definir metas
-- Botão de ação para adicionar novas metas
-
-### 5. Relatórios Personalizados
-- Visualizações simples e adaptadas ao estilo do usuário
-- Acompanhamento de metas e progresso financeiro
-
-### 6. Design Universal
-- Interface acessível e inclusiva:
-  - Linguagem simples
-  - Navegação clara
-  - Compatibilidade com leitores de tela e comandos por voz
-  - Feedbacks visuais e auditivos para facilitar o uso
+### Otimizações
+- Personalização da experiência (estilos de interação).  
+- Relatórios visuais simplificados (gráficos minimalistas).  
+- Gamificação leve adicional (selos e medalhas).  
+- Integração com calendário pessoal.  
+- Privacidade reforçada (modo discreto e dados criptografados).  
 
 ---
 
-## 🧠 Reflexão
+## 📌 Resumo do Conceito
+O *Meu Bolso* é um **assistente financeiro digital acessível e seguro**, que une **simplicidade, interatividade e motivação**.  
+Ele ajuda o usuário a organizar suas finanças pessoais, acompanhar metas, receber lembretes amigáveis e celebrar conquistas com gamificação leve.  
+Tudo isso com uma identidade visual clara e sons sutis que tornam a experiência mais humana e próxima.
 
-### O que funcionou bem?  
-O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
+---
 
-### O que não funcionou como o esperado?  
-Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Coding.
+## 📷 Interações com IA
+Inclua aqui imagens ou vídeos das interações feitas com o **Copilot** e o **Lovable**, mostrando como os prompts foram usados para construir o PRD.
 
-### O que aprendi sobre conversar com IAs?  
-Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação.
+---
+
+## 💡 Reflexão
+Durante o desenvolvimento deste PRD, aprendi a importância de estruturar ideias de forma clara e objetiva, usando IA como parceira criativa.  
+O processo mostrou como prompts bem elaborados podem transformar conceitos em projetos reais, e como a combinação de tecnologia, design e experiência do usuário gera soluções relevantes para o mercado.
+
+---
+
+## 🚀 Entrega
+Este repoitório faz parte do desafio da DIO:
+dio-lab-vibe-coding-app-financas
+Este repositório faz parte do desafio da DIO:  
+[dio-lab-vibe-coding-app-financas](https://github.com/digitalinnovationone/dio-lab-vibe-coding-app-financas)
