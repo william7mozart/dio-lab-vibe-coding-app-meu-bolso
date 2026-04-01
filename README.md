@@ -50,19 +50,19 @@ Tudo isso com uma identidade visual clara e sons sutis que tornam a experiência
 ## 📷 Interações com IA
 
 ### 1. Sugestão de nomes com Copilot
-![Sugestão de nomes com Copilot](imagens/copilot-nomes.png)
+![Sugestão de nomes com Copilot](imagens/Imagens-copilot-nome.png)
 
 ### 2. Identidade visual e cores
-![Identidade visual definida](imagens/copilot-identidade.png)
+![Identidade visual definida](imagens/Imagens-copilot-cores.png)
 
 ### 3. Sons e gamificação
-![Sons e gamificação](imagens/copilot-sons.png)
+![Sons e gamificação](imagens/Imagens-copilot-sons.png)
 
 ### 4. Otimizações e incrementos
-![Otimizações sugeridas](imagens/copilot-otimizacoes.png)
+![Otimizações sugeridas](imagens/Imagens-copilot-otimizações.png)
 
 ### 5. Prompt final consolidado no Lovable
-![Prompt final no Lovable](imagens/lovable-prompt.png)
+![Prompt final no Lovable](imagens/Imagens-lovable-prompt.png)
 
 ---
 
