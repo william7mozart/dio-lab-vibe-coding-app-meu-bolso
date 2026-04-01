@@ -62,7 +62,7 @@ Tudo isso com uma identidade visual clara e sons sutis que tornam a experiência
 ![Otimizações sugeridas](imagens/Imagens-copilot-otimizações.png)
 
 ### 5. Prompt final consolidado no Lovable
-![Prompt final no Lovable](imagens/Imagens-lovable-prompt.png)
+![Prompt final no Lovable](imagens/imagens-lovable-prompt.png)
 
 ---
 
